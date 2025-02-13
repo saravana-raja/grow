@@ -8,7 +8,7 @@ function Header() {
   return (
     <header className="header" >
       <div className="header-content">
-        <h1>Gem Grove Apartment</h1>
+        <h1>The Gem Grove</h1>
         <nav>
           <ul>
             <li><a href="#home">Home</a></li>
