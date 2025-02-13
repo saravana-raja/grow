@@ -62,6 +62,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 0;
+  display: block;
 }
 
 .carousel-slide {
@@ -73,6 +74,10 @@ body {
   height: 500px;
   object-fit: cover;
   border-radius: 8px;
+}
+
+.mobile-carousel-container {
+  display: none;
 }
 
 /* Main Content Layout */
@@ -273,7 +278,55 @@ body {
   .committee-grid {
     grid-template-columns: 1fr;
   }
+
+  .carousel-slide img {
+    height: auto;
+  }
+
+  .mobile-carousel-container {
+    display: block;
+  }
+
+  .carousel-container {
+    display: none;
+  }
 }
+
+/* Additional responsive styles for smaller screens */
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .header nav a {
+    font-size: 1rem;
+  }
+
+  .carousel-slide img {
+    height: 300px;
+  }
+
+  .section h2 {
+    font-size: 1.5rem;
+  }
+
+  .section ul li h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact-group p {
+    font-size: 1rem;
+  }
+
+  .footer-section h3 {
+    font-size: 1.2rem;
+  }
+
+  .footer-section ul li {
+    font-size: 1rem;
+  }
+}
+
 .events-section, .contact-section {
   flex: 1;
   align-self: flex-start; /* Prevents unnecessary stretching */
@@ -299,3 +352,4 @@ body {
   align-items: center;
   gap: 8px; /* Spacing between the icon and text */
 }
+
