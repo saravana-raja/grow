@@ -3,8 +3,13 @@ import Slider from 'react-slick'
 function ImageCarousel() {
     const images = [
         "/grow.webp",
-        "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=800&auto=format",
-        "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=800&auto=format",
+        "/gembanner2.webp",
+        "/republic22.webp",
+        "/omr3602.webp",
+        "/mc2.webp",
+        "/kids2.webp",
+
+
     ];
 
     const settings = {
