@@ -30,7 +30,7 @@ function ImageCarousel() {
     "/republic2.webp",
     "/mc2.webp",
     "/omr3602.webp",
-    "/kids2.webp",
+    "/ucmas2.webp",
 
   ];
 
@@ -65,7 +65,7 @@ function MobileImageCarousel() {
     "/republic2.webp",
     "/mc2.webp",
     "/omr3602.webp",
-    "/kids2.webp",
+    "/ucmas2.webp",
   ];
 
   const settings = {
