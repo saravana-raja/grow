@@ -62,10 +62,10 @@ function MobileImageCarousel() {
   const images = [
     "/grow.webp",
     "/gembanner2.webp",
-    "/republic2.webp",
-    "/mc2.webp",
-    "/omr3602.webp",
-    "/ucmas2.webp",
+    "/republic1.webp",
+    "/mc1.webp",
+    "/omr3601.webp",
+    "/kids1.webp",
   ];
 
   const settings = {
