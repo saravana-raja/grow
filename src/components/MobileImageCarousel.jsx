@@ -17,8 +17,7 @@ function MobileImageCarousel() {
 
     const images = [
         growImage, // Local image
-        "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=800&auto=format",
-        "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=800&auto=format",
+
     ];
 
     const settings = {
