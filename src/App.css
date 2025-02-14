@@ -245,11 +245,13 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .header-content {
-    flex-direction: column;
-    text-align: center;
-    gap: 1rem;
+  .carousel-slide img {
+    height: 200px; /* Adjust height to make it rectangular */
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
   }
+}
 
   .header nav ul {
     flex-wrap: wrap;
